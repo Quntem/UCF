@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./figtree-v9-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100dvh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+* {
+  font-family: 'Figtree', sans-serif;
+}
+
+.toolbar {
+  background: linear-gradient(to bottom,  #eeeeee 0%,#d0d0d0 100%,#7db9e8 100%);
+  height: 50px;
+  /* border: 1px solid rgba(0, 0, 0, 0.162); */
+  border: 1px solid rgba(255, 255, 255, 0.671);
+  border-radius: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.toolbar-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+}
+
+.toolbar-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 1px;
+  background-color: black;
+}
+
+.toolbar-button {
+  display: flex;
+  flex-direction: row;
+  transition: all 0.1s ease-in-out;
+  height: 34px;
+  border: 1px solid transparent;
+  outline: 1px solid transparent;
+  border-radius: 2px;
+  align-items: center;
+  padding: 0 8px;
+  color: black;
+  gap: 8px;
+}
+
+.toolbar-separator {
+  width: 2px;
+  height: 34px;
+  background-color: rgba(0, 0, 0, 0.162);
+}
+
+.toolbar-button:hover {
+  background-color: rgba(0, 0, 0, 0.131);
+  border: 1px solid rgba(0, 0, 0, 0.206);
+  outline: 1px solid white;
+}
+
+.sidebar-left {
+  width: 300px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.167);
+  border-right: 1px solid rgba(255, 255, 255, 0.296);
+  outline: 1px solid rgba(0, 0, 0, 0.85);
+}
+
+.page {
+  background-color: rgb(241, 241, 241);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  outline: 1px solid rgba(0, 0, 0, 0.85);
+  width: 100%;
+  padding: 20px;
+}
