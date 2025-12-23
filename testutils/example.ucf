@@ -10,8 +10,7 @@
                 "github": "https://github.com/editor",
                 "url": "https://example.com"
             },
-            "id": "1",
-            "version": "1.0.0"
+            "id": "1"
         }
     },
     "docinfo": {
@@ -48,6 +47,14 @@
             {
                 "type": "basic.text.plain",
                 "content": "Hello World, this is a demo of UCF, the universal content format."
+            },
+            {
+                "type": "basic.text.markdown",
+                "content": "### This text is in markdown\n\nUCF supports many different types of content."
+            },
+            {
+                "type": "basic.text.html",
+                "content": "<p>This text is in HTML</p><p>UCF Viewers should strip out any dangerous HTML tags such as scripts and stylesheets.</p>"
             }
         ]
     }

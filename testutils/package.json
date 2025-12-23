@@ -1,0 +1,19 @@
+{
+  "name": "testutils",
+  "version": "1.0.0",
+  "description": "these utilities are used for testing during the development of the UCF format.",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "marked": "^17.0.1",
+    "sanitize-html": "^2.17.0"
+  },
+  "devDependencies": {
+    "@types/sanitize-html": "^2.16.0"
+  }
+}
