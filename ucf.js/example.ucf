@@ -1,0 +1,54 @@
+{
+    "ucfinfo": {
+        "version": "1.0.0"
+    },
+    "authors": {
+        "1": {
+            "name": "Editor Name",
+            "connections": {
+                "email": "editor@example.com",
+                "github": "https://github.com/editor",
+                "url": "https://example.com"
+            },
+            "id": "1",
+            "version": "1.0.0"
+        }
+    },
+    "docinfo": {
+        "title": "Example Document",
+        "description": "This is an example document.",
+        "created": {
+            "software": {
+                "name": "UCF.js",
+                "id": "quntem.opensource.ucfjs",
+                "version": "1.0.0"
+            },
+            "date": "2025-12-23T12:56:00Z",
+            "author": "1"
+        },
+        "modified": {
+            "software": {
+                "name": "UCF.js",
+                "id": "quntem.opensource.ucfjs",
+                "version": "1.0.0"
+            },
+            "date": "2025-12-23T12:56:00Z",
+            "author": "1"
+        },
+        "metadata": {
+            "extra": "Optional Extra Metadata"
+        }
+    },
+    "content": {
+        "blocks": [
+            {
+                "type": "basic.text.title",
+                "content": "Universal Content Format"
+            },
+            {
+                "type": "basic.text.plain",
+                "content": "Hello World, this is a demo of UCF, the universal content format."
+            }
+        ]
+    }
+}
