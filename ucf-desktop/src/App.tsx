@@ -73,6 +73,12 @@ function Toolbar({ file, setFile }: { file: { content: string | null, handle: Fi
           </button>
         </div>
         <div className='toolbar-separator' />
+        <div className='toolbar-section flex-1'>
+          <div className='pl-2 text-lg'>
+            {file.handle?.name}
+          </div>
+        </div>
+        <div className='toolbar-separator' />
         <div className='toolbar-section'>
           <div className='pl-2 text-lg'>
             {file.handle?.name}

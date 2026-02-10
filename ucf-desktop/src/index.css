@@ -42,6 +42,7 @@
   flex-direction: row;
   align-items: center;
   padding: 8px;
+  gap: 4px;
 }
 
 .toolbar-stack {
@@ -69,11 +70,13 @@
 .toolbar-separator {
   width: 2px;
   height: 34px;
-  background-color: rgba(0, 0, 0, 0.162);
+  background-color: rgba(0, 0, 0, 0.291);
+  outline: 1px solid rgba(255, 255, 255, 0.291);
 }
 
 .toolbar-button:hover {
   background-color: rgba(0, 0, 0, 0.131);
+  /* background: linear-gradient(to bottom,  #00000058 0%,#00000020 100%,#7db9e8 100%); */
   border: 1px solid rgba(0, 0, 0, 0.206);
   outline: 1px solid white;
 }
